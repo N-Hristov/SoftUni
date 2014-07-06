@@ -1,0 +1,144 @@
+﻿body, div, header, footer, section, aside, ul, li, h2, p, span, a, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: #90ee90;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    padding:10px;
+    font-family:Tahoma;
+}
+
+    #wrapper ul {
+        list-style-type: none;
+    }
+
+#wrapper header {
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    width:100%;
+    background-color:white;
+}
+
+    #wrapper header nav{
+        display:flex;
+    }
+
+    #wrapper header nav ul {
+        display:flex;
+        justify-content:space-between; 
+        align-self:center;   
+    }
+
+        #wrapper header nav ul li {
+            background-color:#c7fbc7;
+            margin-left:15px;
+        }
+
+            #wrapper header nav ul li a {
+                text-decoration: none;
+                color: black;
+                padding:10px;
+                display:block;
+            }
+
+    #wrapper section {
+        background-color:white;
+        width:74%;
+        margin:10px 0;
+        padding:10px;
+        align-self:flex-start;
+    }
+
+    #wrapper section article {
+        background-color:#c7fbc7;
+        margin-bottom:10px;
+        padding:10px;
+    }
+
+        #wrapper section article span {
+            margin-bottom:10px;
+            display:block;
+        }
+
+            #wrapper section article span a {
+                word-break:break-all;
+            }
+
+    #wrapper aside {
+        width:25%;
+        background-color:white;
+        margin:10px 0;
+        padding:10px;
+        align-self:flex-start;
+    }
+
+        #wrapper aside ul{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content:space-around;
+        }
+
+            #wrapper aside img {
+                width:70%;
+            }
+
+    #wrapper footer {
+        background-color:white;
+        text-align:center;
+        width:100%;
+        padding:15px;
+    }
+
+@media screen and (max-width:780px) {
+
+    #wrapper header {
+        flex-flow:column wrap;
+    }
+
+        #wrapper header img {
+            max-width:255px;
+            align-self:center;
+            margin-bottom:10px;
+        }
+
+         #wrapper header nav {
+             align-self:center;
+         }
+
+    #wrapper section {
+        width:100%;
+    }
+
+    #wrapper aside {
+        width:100%;
+    }
+
+    #wrapper aside img {
+        width:100%;
+    }
+
+
+}
+
+@media all and (max-width:480px) {
+    #wrapper header nav ul {
+        flex-flow:column wrap;
+    }
+
+    #wrapper header nav ul li{
+        margin-bottom:2px;
+        text-align:center;
+    }
+
+    #wrapper aside ul li {
+        width:100%;
+    }
+}
+
+

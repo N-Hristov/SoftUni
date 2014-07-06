@@ -1,0 +1,110 @@
+﻿body, table, thead, tbody, tr, th, td, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin imageBackground ($imgpath) {
+    background: url($imgpath) no-repeat;
+    background-size: 30px;
+    background-position: 5px center;
+    /*background-position-y: center;*/
+}
+
+body {
+    background-color: #d4afff;
+    font-family: Tahoma;
+    text-align:center;
+
+    table {
+        width: 1150px;
+        background-color: white;
+        margin:0 auto;
+        border: 1px solid black;
+
+        thead {
+            background-color: #bce954;
+
+            th {
+                padding: 5px;
+                border: 1px solid black;
+            }
+        }
+
+        tbody {
+            tr {
+                &:nth-child(even) {
+                    background-color: #eeeeee;
+                }
+
+                &:hover {
+                    background-color: #e9d0ed;
+                }
+
+                td {
+                    padding: 10px;
+                    padding-right: 0;
+                    padding-left: 15px;
+                    text-align: center;
+                    border: 1px solid black;
+
+                    a{
+                        text-decoration:none;
+                        color:black;
+                    }
+                }
+            }
+
+            > tr:nth-child(1) {
+                > td.nakov {
+                    @include imageBackground("../images/nakovhangman.png");
+                }
+
+                > td.vlado-k {
+                    @include imageBackground("../images/undertaker.png");
+                }
+
+                > td.vlado-g {
+                    @include imageBackground("../images/vlado.png");
+                }
+
+                > td.petya {
+                    @include imageBackground("../images/princessPetya.png");
+                }
+            }
+
+            > tr:nth-child(2) {
+                > td.nakov {
+                    @include imageBackground("../images/masternakov.png");
+                }
+
+                > td.vlado-g {
+                    @include imageBackground("../images/vladSkouokyr.png");
+                }
+
+                > td.petya {
+                    @include imageBackground("../images/petya.png");
+                }
+            }
+
+            > tr:nth-child(3) {
+                > td.nakov {
+                    @include imageBackground("../images/svezis.png");
+                }
+
+                > td.vlado-k {
+                    @include imageBackground("../images/vladesagain.png");
+                }
+
+                > td.tedi {
+                    @include imageBackground("../images/tedistoraro.png");
+                }
+
+                > td.vlado-g {
+                    @include imageBackground("../images/vlades.png");
+                }
+            }
+        }
+    }
+}
