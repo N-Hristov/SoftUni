@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/T1_simpleform.css"/>
+</head>
+<body>
+<div class="wrapper">
+<header>
+    <h1>Enter the system</h1>
+    <br>
+    <p>It is necessary to login in Your account to sign in for a course</p>
+    <br>
+</header>
+
+<form id="form1" class="form1">
+    <fieldset form="form1">
+        <p class="new">Are you new? <span class="span">Register</span></p>
+        <input type="text" name="username" placeholder="User name"/>
+        <input type="email" name="email" placeholder="Email"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <input type="password" name="passwordconfirm" placeholder="Confirm Password"/>
+        <input class="regbtn" type="submit" name="register" value="Register"/>
+    </fieldset>
+</form>
+
+<form id="form2" class="form2">
+    <fieldset form="form2">
+        <p class="login">Already a student? Login</p>
+        <input type="text" name="username2" placeholder="User name"/>
+        <input type="password" name="password2" placeholder="Password"/>
+        <input class="loginbtn" type="submit" name="register" value="Login"/>
+        <input id="remember" name="remember" type="checkbox" />
+        <label class="remlabel" for="remember">Remember me?</label>
+        <br>
+        <br>
+        <br>
+        <p class="forgotten-pass" align="right"><a href="#">Forgot Password</a></p>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>

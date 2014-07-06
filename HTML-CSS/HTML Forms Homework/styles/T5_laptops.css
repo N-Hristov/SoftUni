@@ -1,0 +1,61 @@
+.labelName {
+    margin-left: auto;
+    margin-right: auto;
+}
+.labelMax {
+    float: right;
+}
+input[type=range] {
+    width: 130px;
+}
+.products {
+    width: 650px;
+    float: left;
+    display: inline-block;
+}
+.price {
+    color: #fff;
+    background-color: #2C425A;
+    float: right;
+    padding: 5px;
+    border-radius: 4px 0 0 0;
+}
+.sliders {
+    position: relative;
+    top: 70px;
+    right: 50px;
+    width: 150px;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: bottom;
+}
+button {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    width: 193px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: left;
+}
+body {
+    font-family:"Arial", sans-serif;
+}
+span.title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.wrapper{
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+}
+h1,label,span{
+    color:  #2C425A
+}
+.sliders>label{
+    display: block;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}

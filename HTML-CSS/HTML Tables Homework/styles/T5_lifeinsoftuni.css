@@ -1,0 +1,66 @@
+table {
+    font-size: 20px;
+    font-family: Verdana;
+    border-style:solid;
+    border-color:#000000;
+}
+
+thead{
+    font-size: 50px;
+
+}
+
+th{
+    height: 100px;
+    width: 100px;
+}
+
+td{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+
+}
+td.nested{
+    font-size: 12px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+td#google{
+    text-align: left;
+    vertical-align: top;
+}
+td#github{
+    text-align: right;
+    vertical-align: top;
+}
+td#fb{
+    text-align: center;
+    vertical-align: top;
+}
+td#gmail{
+    text-align: left;
+}
+td#youtube{
+    vertical-align: bottom;
+    text-align: center;
+}
+td#num{
+    text-align: left;
+}
+td#food{
+    text-align: right;
+    vertical-align: bottom;
+}
+td#game{
+    text-align: left;
+    vertical-align: bottom;
+}
+td#beer{
+    font-size: 24px;
+    text-align: right;
+}
+td#WC{
+    text-align: left;
+}

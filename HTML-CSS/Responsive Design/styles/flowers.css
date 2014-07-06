@@ -1,0 +1,152 @@
+/*Reset*/
+html, body, section, header, main, footer, h1, h2, h4, h5, h3, ul, li, img, div, nav, p {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-family: Tahoma, sans-serif;
+    font-size: 62.5%;
+    background-color: #6698FF;
+}
+
+/*Main*/
+
+body{
+   background: url("../images/background-flowers.jpg")
+
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+body #wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+body #wrapper > header {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    padding: 20px;
+    text-align: right;
+}
+
+body #wrapper header h1 a,
+body #wrapper aside ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+body #wrapper header h1 a > img {
+    width: 30%;
+    float: left;
+}
+
+body #wrapper header nav {
+    text-align: right;
+}
+
+body #wrapper header nav ul li {
+    list-style-type: none;
+    text-align: right;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #eb2a7b;
+    border: 1px solid #000;
+}
+
+body #wrapper header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body #wrapper aside {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #000;
+    padding: 0 20px;
+    width: 15%;
+    margin-top: 30px;
+}
+
+body #wrapper aside ul {
+    padding-left: 0;
+}
+
+body #wrapper aside ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+body #wrapper aside.left {
+    float: left;
+}
+
+body #wrapper aside.right {
+    float: right;
+}
+
+body #wrapper aside.right ul li p {
+    line-height: 1.6;
+}
+
+body #wrapper section {
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid #000;
+}
+
+body #wrapper section article {
+    padding: 10px;
+}
+
+body #wrapper section article header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+body #wrapper section article div img {
+    width: 24%;
+}
+
+body #wrapper footer {
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid #000;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}

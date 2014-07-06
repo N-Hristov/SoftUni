@@ -1,0 +1,41 @@
+
+/*Styles*/
+#order_flight_table {
+    font-family:arial;
+    font-style: italic;
+    background: #ffc0cb;
+    padding: 10px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+th {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+input {
+    padding: 3px;
+}
+input[type="time"] {
+    width: 80px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 60px;
+}
+
+#city_select {
+    width: 95%;
+    font-weight: bold;
+}
+
+.date_select, .select {
+    width: 95%;
+}
+
+#search {
+    width: 95%;
+    border-radius: inherit;
+    font-weight: bold;
+}

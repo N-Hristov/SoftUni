@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+/*Table Styling*/
+tr:nth-child(even){
+    background-color: #C8C8C8;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+table tr th {
+    font-weight: bold;
+    text-align: center;
+    background-color: #F8C711;
+}
+
+th{
+    padding: 5px;
+    width: 200px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F8C711;
+}
+table {
+    overflow: hidden;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: black;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+td {
+    border-collapse: collapse;
+    font-size: 16px;
+    border: 2px solid black;
+    text-align: center;
+}
+table tr td:first-child{
+    text-align: right;
+}
+table tr td:nth-child(3){
+    text-align: left;
+}
+table tr td:nth-child(4){
+    width: 10%;
+    font-size: 1rem;
+}
+table tr td:nth-child(2){
+    width: 10%;
+    font-size: 1rem;
+}
+table th.country1{
+    text-align: right;
+    padding-right: 5px;
+    width: 200px;
+}
+
+table th.country2{
+    text-align: left;
+    padding-left: 5px;
+    width: 200px;
+}
+
+table td:nth-child(5){
+    text-align: right;
+    padding-right: 5px;
+    width: 170px;
+}
+
+table td:nth-child(6){
+    width: 130px;
+}
+
+table td:nth-child(7){
+    width: 165px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+table td:nth-child(8){
+    width: 65px;
+}
+table th:nth-child(1){
+    border-top-left-radius: 17px;
+}
+
+table th:last-child {
+    border-top-right-radius: 17px;
+    text-align: center;
+}
+
+table tr:last-child td:nth-child(1){
+    border-bottom-left-radius: 17px;
+}
+
+table tr:last-child td:last-child{
+    border-bottom-right-radius: 17px;
+}
+
+/* Image Insertion */
+div.brazil{
+    float: right;
+    content: url(../images/flags/brasil.png);
+    padding: 4px;
+}
+div.argentina{
+    float: right;
+    content: url(../images/flags/argentina.png);
+    padding: 4px
+}
+div.bosnia{
+    float: left;
+    content: url(../images/flags/bosnia-herz.png);
+    margin-left: 5px;
+    margin-top: 4px;
+}
+div.england{
+    float: left;
+    content: url(../images/flags/england.png);
+    margin-left: 5px;
+    margin-top: 4px;
+}
+div.Germany{
+    float: right;
+    content: url(../images/flags/germany.png);
+    padding: 4px;
+}
+div.italy{
+    float: right;
+    content: url(../images/flags/italy.png);
+    padding: 4px
+    }
+div.mexico{
+    float: left;
+    content: url(../images/flags/mexico.png);
+    margin-left: 5px;
+    margin-top: 4px;
+}
+div.netherlands{
+    float: left;
+    content: url(../images/flags/netherlands.png);
+    margin-left: 5px;
+    margin-top: 4px;
+}
+div.Portugal{
+    float: left;
+    content: url(../images/flags/portugal.png);
+    margin-left: 5px;
+    margin-top: 4px;
+}
+div.spain{
+    float: right;
+    content: url(../images/flags/portugal.png);
+    padding: 4px;
+}
+/* Wrapper */
+.wrapper{
+    width: 1050px;
+    height: 420px;
+    background: #00923e;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+/*buttons*/
+button{
+    font-size: 0.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.9rem;
+    background: #008000;
+    color: white;
+}
+button:disabled{
+    background: #FF0000;
+}
+select{
+    color: #008000;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 0.1rem;
+    border: solid 1px #B0B0B0;
+}
+select:disabled{
+    color: #FF0000;
+}

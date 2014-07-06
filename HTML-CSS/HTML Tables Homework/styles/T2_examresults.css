@@ -1,0 +1,16 @@
+table {
+
+    font-size: 19px;
+    font-family: Calibri;
+}
+table footer {
+    text-align: right;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    font-size: 22px;
+}

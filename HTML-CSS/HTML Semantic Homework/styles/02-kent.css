@@ -1,0 +1,67 @@
+html, body, img, h1, h2, h3, meter, p, figure, audio, video {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    padding: 10px 10px 10px 10px;
+
+}
+
+main{
+    font-family: Tahoma, sans-serif;
+    background-color: #FFC0CB;
+    width: 950px;
+    height: 350px;
+    padding: 10px 35px 15px 23px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+figure {
+    font-weight: bold;
+    margin: 0;
+}
+figcaption {
+    font-size: 1.3rem;
+}
+meter {
+    margin-top: 6px;
+    width: 80%;
+    height: 23px;
+}
+header > h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+section > h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+section > audio, section > video{
+    display: block;
+    margin: 5px;
+}
+.audio audio:first-of-type {
+    background-color: #000;
+    height: 150px;
+    position: relative;
+}
+
+.audio audio:first-of-type::-webkit-media-controls-panel {
+    width: 260px;
+    position: absolute;
+    top: 40px;
+}

@@ -1,0 +1,89 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+
+}
+.wrapper{
+    display: block;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+body{
+    background-color: #EEEEEE;
+}
+
+fieldset {
+    border: 0;
+    vertical-align: top;
+    width: 370px;
+    height: 255px;
+    display: inline-block;
+}
+form{
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.form2{
+    background-color: #234465;
+}
+.form1{
+    background-color: #EEEEEE;
+}
+input{
+    margin-bottom: 5px;
+}
+
+[type=text],[type=password],[type=email] {
+    height: 25px;
+    width: 95%;
+    display: block;
+    padding: 2px;
+    margin: 10px;
+}
+h1{
+    font-weight: bold;
+    color: #234465;
+}
+.span{
+    color: #234465
+}
+.new,.login{
+    text-transform: uppercase;
+}
+.new{
+    color: #575757;
+    font-weight: bold;
+
+}
+.login{
+    color: #EEEEEE;
+    font-weight: bold;
+}
+a,p.forgottenpass{
+
+    text-decoration: underline;
+    color: #EEEEEE;
+}
+.loginbtn{
+    float: right;
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border: solid #dd8f0f 2px;
+
+}
+.regbtn{
+    float: right;
+    width: 160px;
+    height: 40px;
+    background: transparent;
+    color: #234465;
+    border: solid #234465 2px;
+}
+.remlabel{
+    color: #ffffff;
+}

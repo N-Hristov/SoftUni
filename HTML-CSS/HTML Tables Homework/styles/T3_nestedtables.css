@@ -1,0 +1,17 @@
+table {
+
+    font-size: 30px;
+    font-family: Calibri;
+    width: 400px;
+    height: 250px;
+}
+td,th {
+
+    text-align: center;
+    padding: 5px;
+}
+
+table.nested {
+    width: 250px;
+    height: 250px;
+}
