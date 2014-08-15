@@ -1,0 +1,10 @@
+form input{
+    display: block;
+}
+form input[type="radio"]{
+    display: inline-block;
+}
+
+label{
+    display: block;
+}
