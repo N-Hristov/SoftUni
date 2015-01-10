@@ -1,3 +1,8 @@
-/**
- * Created by Nicola on 2015-01-08.
- */
+app.directive('categories', function(){
+    return {
+        controller: 'CategoriesCtrl',
+        restrict: 'E',
+        templateUrl: 'templates/public/categories.html',
+        replace: true
+    };
+});

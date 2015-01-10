@@ -19,7 +19,7 @@ app.factory('authentication', function(){
     }
 
     function removeUser(){
-        localStorage.removeItem(key);
+        sessionStorage.removeItem(key);
     }
 
     function isAdmin() {
@@ -27,10 +27,15 @@ app.factory('authentication', function(){
         return isAdmin;
     }
 
+    function isLoggedIn(){
+        return !!getUserData();
+    }
+
     return {
         saveUser: saveUserData,
         getUser: getUserData,
         getHeaders: getHeaders,
-        removeUser: removeUser
+        removeUser: removeUser,
+        isLoggedIn: isLoggedIn
     }
 });
