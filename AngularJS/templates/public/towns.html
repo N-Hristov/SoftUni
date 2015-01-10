@@ -1,7 +1,7 @@
-<div id="towns">
+<div id="towns" class="list-group">
     <h2>Towns:</h2>
     <ul>
-        <li ng-repeat="town in towns">
+        <li ng-repeat="town in towns" ng-click="townClicked(town)" class="list-group-item">
             {{town.name}}
         </li>
     </ul>

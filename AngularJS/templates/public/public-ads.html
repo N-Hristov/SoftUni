@@ -2,7 +2,15 @@
     <img src="images/loading.gif" alt="loading" ng-hide="ready" width="200px">
     <ul ng-cloak>
         <li ng-repeat="ad in adsData.ads">
-            {{ad.title}}
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ad.title}}</h3>
+                </div>
+                <div class="panel-body">
+                    <p>{{ad.text}}</p>
+                </div>
+            </div>
+
         </li>
     </ul>
 </div>

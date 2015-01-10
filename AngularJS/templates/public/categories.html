@@ -1,7 +1,7 @@
-<div id="categories">
+<div id="categories" class="list-group">
     <h2>Categories:</h2>
     <ul>
-        <li ng-repeat="category in categories" ng-click="categoryClicked(category)">
+        <li ng-repeat="category in categories" ng-click="categoryClicked(category)" class="list-group-item">
             {{category.name}}
         </li>
     </ul>
