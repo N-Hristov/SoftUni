@@ -13,7 +13,6 @@ app.factory('filter', function(){
         return filterParams;
     }
 
-
     return {
         filterByCategory: filterByCategory,
         filterByTown: filterByTown,
