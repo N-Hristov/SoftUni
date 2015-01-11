@@ -31,3 +31,8 @@ li {
 	width: 100%;
 }
 .navbar-brand {float:none;}
+
+img {
+	max-width: 200px;
+	max-height: 200px;
+}

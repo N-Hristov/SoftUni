@@ -1,16 +1,23 @@
 <div id="public-ads">
-    <img src="images/loading.gif" alt="loading" ng-hide="ready" width="200px">
+    <img src="images/loading.gif" alt="loading" ng-hide="ready">
     <ul ng-cloak>
         <li ng-repeat="ad in adsData.ads">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h3 class="panel-title">{{ad.title}}</h3>
+                    <h3 class="panel-title">{{ad.title}}</h3><p>Posted: {{ad.date | date: 'hh:mm, dd-MMM-yy'}}</p>
+                </div>
+                <div id="imgContainer">
+                    <img data-ng-src="{{ad.imageDataUrl}}"/>
                 </div>
                 <div class="panel-body">
                     <p>{{ad.text}}</p>
                 </div>
+                <div class="well well-sm">
+                    <p>User: {{ad.ownerName}} </p>
+                    <p>Email: {{ad.ownerEmail}} </p>
+                    <p>Phone: {{ad.ownerPhone}} </p>
+                </div>
             </div>
-
         </li>
     </ul>
 </div>
