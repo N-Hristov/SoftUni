@@ -18,7 +18,7 @@ app.config(['$routeProvider', function ($routeProvider) {
         controller: 'RegisterCtrl'
     });
 
-    $routeProvider.when('user/ads', {
+    $routeProvider.when('/user/ads', {
         templateUrl: '/templates/user/userHome.html' ,
         controller: 'UserHomeCtrl'
     });

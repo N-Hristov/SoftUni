@@ -1,4 +1,4 @@
-app.controller('UserAdsCtrl', ['$scope', 'adsData', 'filter',  function($scope, adsData, filter){
+app.controller('UserAdsCtrl', ['$scope', 'adsData', 'userActions', 'filter',  function($scope, adsData, userActions, filter){
     $scope.ready = false;
 
     function loadUserAds(filterParams) {
